@@ -87,7 +87,7 @@ $(function () {
 
         }else{
             myStream.getAudioTracks()[0].enabled= true;
-             html= `<i class="fas fa_microphone"></i>`;
+             html= `<i class="fas fa-microphone"></i>`;
              $("#mute_button").toggleClass("background_red")
              $("#mute_button").html(html)
 
